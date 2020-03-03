@@ -135,16 +135,10 @@ public class VentanaPanel extends JFrame {
 				y1 = (int) Boton1_1.getLocation().getY();
 				x2 = (int) Boton1.getLocation().getX();
 				y2 = (int) Boton1.getLocation().getY();
-
-				//				for (int i = x2 - 5; i < x2 + 5; i++) {
-				//					for (int j = y2 - 5; j < y2 + 5; j++) {
 				if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
 					Boton1.setLocation(Boton1_1.getLocation());
-					//							break;
 				} else {
 					Boton1.setLocation(p1);
-					//						}
-					//					}
 				}
 
 			}
@@ -333,17 +327,17 @@ public class VentanaPanel extends JFrame {
 				x2 = (int) Boton4.getLocation().getX();
 				y2 = (int) Boton4.getLocation().getY();
 
-//				for (int i = x2 - 5; i < x2 + 5; i++) {
-//					for (int j = y2 - 5; j < y2 + 5; j++) {
-						if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
-							Boton4.setLocation(Boton4_4.getLocation());
-//							break;
+				//				for (int i = x2 - 5; i < x2 + 5; i++) {
+				//					for (int j = y2 - 5; j < y2 + 5; j++) {
+				if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
+					Boton4.setLocation(Boton4_4.getLocation());
+					//							break;
 
-						} else {
-							Boton4.setLocation(p4);
-						}
-//					}
-//				}
+				} else {
+					Boton4.setLocation(p4);
+				}
+				//					}
+				//				}
 
 			}
 
@@ -400,17 +394,17 @@ public class VentanaPanel extends JFrame {
 				x2 = (int) Boton5.getLocation().getX();
 				y2 = (int) Boton5.getLocation().getY();
 
-//				for (int i = x2 - 5; i < x2 + 5; i++) {
-//					for (int j = y2 - 5; j < y2 + 5; j++) {
-						if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
-							Boton5.setLocation(Boton5_5.getLocation());
-//							break;
+				//				for (int i = x2 - 5; i < x2 + 5; i++) {
+				//					for (int j = y2 - 5; j < y2 + 5; j++) {
+				if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
+					Boton5.setLocation(Boton5_5.getLocation());
+					//							break;
 
-						} else {
-							Boton5.setLocation(p5);
-						}
-//					}
-//				}
+				} else {
+					Boton5.setLocation(p5);
+				}
+				//					}
+				//				}
 
 			}
 
@@ -469,17 +463,17 @@ public class VentanaPanel extends JFrame {
 				y2 =(int)Boton6.getLocation().getY(); 
 
 
-//				for (int i = x2-5; i < x2+5; i++) {
-//					for (int j= y2-5; j < y2+5; j++) {
-						if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
-							Boton6.setLocation(Boton6_6.getLocation());
-//							break;
+				//				for (int i = x2-5; i < x2+5; i++) {
+				//					for (int j= y2-5; j < y2+5; j++) {
+				if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
+					Boton6.setLocation(Boton6_6.getLocation());
+					//							break;
 
-						}else {
-							Boton6.setLocation(p6);
-						}
-//					}
-//				}
+				}else {
+					Boton6.setLocation(p6);
+				}
+				//					}
+				//				}
 
 			}
 
@@ -542,19 +536,19 @@ public class VentanaPanel extends JFrame {
 				y2 =(int)Boton7.getLocation().getY(); 
 
 
-//				for (int i = x2-5; i < x2+5; i++) {
-//					for (int j= y2-5; j < y2+5; j++) {
-						if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
-							Boton7.setLocation(Boton8_8.getLocation());
-							p7=Boton7.getLocation();
-//							break;
+				//				for (int i = x2-5; i < x2+5; i++) {
+				//					for (int j= y2-5; j < y2+5; j++) {
+				if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
+					Boton7.setLocation(Boton8_8.getLocation());
+					p7=Boton7.getLocation();
+					//							break;
 
 
-						}else {
-							Boton7.setLocation(p7);
-						}
-//					}
-//				}
+				}else {
+					Boton7.setLocation(p7);
+				}
+				//					}
+				//				}
 
 			}
 
@@ -612,17 +606,17 @@ public class VentanaPanel extends JFrame {
 				y2 =(int)Boton8.getLocation().getY(); 
 
 
-//				for (int i = x2-5; i < x2+5; i++) {
-//					for (int j= y2-5; j < y2+5; j++) {
-						if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
-							Boton8.setLocation(Boton9_9.getLocation());
-//							break;
+				//				for (int i = x2-5; i < x2+5; i++) {
+				//					for (int j= y2-5; j < y2+5; j++) {
+				if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
+					Boton8.setLocation(Boton9_9.getLocation());
+					//							break;
 
-						}else {
-							Boton8.setLocation(p8);
-						}
-//					}
-//				}
+				}else {
+					Boton8.setLocation(p8);
+				}
+				//					}
+				//				}
 
 			}
 
@@ -683,16 +677,16 @@ public class VentanaPanel extends JFrame {
 				y2 =(int)Boton9.getLocation().getY(); 
 
 
-//				for (int i = x2-5; i < x2+5; i++) {
-//					for (int j= y2-5; j < y2+5; j++) {
-						if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
-							Boton9.setLocation(Boton7_7.getLocation());
-//							break;	
-						}else {
-							Boton9.setLocation(p9);
-						}
-//					}
-//				}
+				//				for (int i = x2-5; i < x2+5; i++) {
+				//					for (int j= y2-5; j < y2+5; j++) {
+				if ((x2 > x1 - 10 && x2 < x1 + 10) && (y2 > y1 - 10 && y2 < y1 + 10)) {
+					Boton9.setLocation(Boton7_7.getLocation());
+					//							break;	
+				}else {
+					Boton9.setLocation(p9);
+				}
+				//					}
+				//				}
 
 			}
 
